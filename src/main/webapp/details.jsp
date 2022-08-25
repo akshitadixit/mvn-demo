@@ -37,9 +37,15 @@
             <ul>
                 <li>
                     <div>
-                        <h2>John Doe</h2>
+                        <% String fname=request.getParameter("fname"); String lname=request.getParameter("lname");
+                            String email=request.getParameter("email"); String phone=request.getParameter("phone");
+                            String message=request.getParameter("message"); %>
+                            <h2>
+                                <%=fname +" "+lname %></h2>
                         <br>
-                        <h3>CSE/19009/436</h3>
+                        <h3><%=email%></h3>
+                        <h3><%=phone%></h3>
+                        <h3>Bio:<br><h4><%=message%></h4></h3>
                     </div>
                 </li>
             </ul>
@@ -47,7 +53,8 @@
     </form>
     </p>
 
-    <script src="./js/form.js" async defer></script>
+    <script src=" ./js/form.js" async defer>
+    </script>
 </body>
 
 </html>

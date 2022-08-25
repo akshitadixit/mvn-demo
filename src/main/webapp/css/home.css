@@ -1,0 +1,12 @@
+.home-text {
+    width: 100vw;
+    text-align: center;
+
+    
+}
+.home-text .container{
+    width:30vw;
+    height: 90vh;
+    margin: 30vh auto;
+
+}
