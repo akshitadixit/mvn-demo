@@ -36,18 +36,37 @@
             <ul>
                 <li>
                     <div class="grid grid-2">
-                        <input type="text" placeholder="First Name" name="fname" required>
-                        <input type="text" placeholder="Last Name" name="lname" required>
+                        <input type="text" placeholder="Enrolment No." name="eno" required>
                     </div>
                 </li>
                 <li>
                     <div class="grid grid-2">
-                        <input type="email" placeholder="Email" name="email" required>
-                        <input type="tel" placeholder="Phone" name="phone">
+                        <input type="text" placeholder="Name" name="name" required>
                     </div>
                 </li>
                 <li>
-                    <textarea placeholder="Bio" name="message"></textarea>
+                    <div class="grid grid-2">
+                        <p>Program</p>
+                    </div>
+                    <div class="grid grid-2">
+                        <input type="radio" id="msc" name="program" value="M.Sc">
+                        <label for="msc">M.Sc</label>
+
+                        <input type="radio" id="mtech" name="program" value="M.Tech">
+                        <label for="mtech">M.Tech</label>
+                    </div>
+                </li>
+                <li>
+                    <div class="grid grid-2">
+                        <p>Course Code</p>
+                    </div>
+                    <div class="grid grid-2">
+                        <input type="radio" id="a" name="cc" value="201 (A)">
+                        <label for="a">201 (A)</label>
+
+                        <input type="radio" id="b" name="cc" value="201 (B)">
+                        <label for="b">201 (B)</label>
+                    </div>
                 </li>
                 <li>
                     <input type="checkbox" id="terms">

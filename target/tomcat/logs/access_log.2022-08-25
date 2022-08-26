@@ -98,3 +98,11 @@
 127.0.0.1 - - [25/Aug/2022:17:11:42 +0530] "GET /index.jsp HTTP/1.1" 200 1644 http-bio-9090-exec-3 1
 127.0.0.1 - - [25/Aug/2022:17:11:42 +0530] "GET /css/home.css HTTP/1.1" 304 - http-bio-9090-exec-3 15
 127.0.0.1 - - [25/Aug/2022:17:11:42 +0530] "GET /js/form.js HTTP/1.1" 200 939 http-bio-9090-exec-5 3
+127.0.0.1 - - [25/Aug/2022:17:17:35 +0530] "GET / HTTP/1.1" 200 1644 http-bio-9090-exec-1 56
+127.0.0.1 - - [25/Aug/2022:17:17:35 +0530] "GET /js/form.js HTTP/1.1" 304 - http-bio-9090-exec-2 2
+127.0.0.1 - - [25/Aug/2022:17:17:43 +0530] "GET /exam.jsp HTTP/1.1" 200 3329 http-bio-9090-exec-3 13
+127.0.0.1 - - [25/Aug/2022:17:18:05 +0530] "GET /details.jsp?fname=aadjs&lname=jnfdfjf+id&email=abc%40gmail.com&phone=343333333&message=sjdns+f+dsj%0D%0Afjnf+i HTTP/1.1" 200 1890 http-bio-9090-exec-4 6
+127.0.0.1 - - [25/Aug/2022:17:18:05 +0530] "GET /css/home.css HTTP/1.1" 304 - http-bio-9090-exec-5 4
+127.0.0.1 - - [25/Aug/2022:17:18:37 +0530] "GET /index.jsp HTTP/1.1" 200 1644 http-bio-9090-exec-7 0
+127.0.0.1 - - [25/Aug/2022:17:18:37 +0530] "GET /js/form.js HTTP/1.1" 304 - http-bio-9090-exec-8 0
+127.0.0.1 - - [25/Aug/2022:17:18:44 +0530] "GET /exam.jsp HTTP/1.1" 200 3329 http-bio-9090-exec-9 0

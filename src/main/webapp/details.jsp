@@ -31,27 +31,55 @@
             <h1 class="logo">Welcome To Exam!</h1>
         </div>
     </nav>
-    <p>
-    <form class="home-text">
+    <div class="home-text">
         <div class="container">
-            <ul>
-                <li>
-                    <div>
-                        <% String fname=request.getParameter("fname"); String lname=request.getParameter("lname");
-                            String email=request.getParameter("email"); String phone=request.getParameter("phone");
-                            String message=request.getParameter("message"); %>
-                            <h2>
-                                <%=fname +" "+lname %></h2>
-                        <br>
-                        <h3><%=email%></h3>
-                        <h3><%=phone%></h3>
-                        <h3>Bio:<br><h4><%=message%></h4></h3>
-                    </div>
-                </li>
-            </ul>
+            <table>
+                <tr>
+                    <% String eno=request.getParameter("eno"); String name=request.getParameter("name"); String
+                        program=request.getParameter("program"); String cc=request.getParameter("cc"); %>
+                        <td colspan="7">
+                            <h3>Enrolment Number:</h3>
+                        </td>
+                        <td colspan="3">
+                            <h3>
+                                <%=eno%>
+                            </h3>
+                        </td>
+                </tr>
+                <tr>
+                    <td colspan="7">
+                        <h3>Candidate Name:</h3>
+                    </td>
+                    <td colspan="3">
+                        <h3>
+                            <%=name%>
+                        </h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="7">
+                        <h3>Program:</h3>
+                    </td>
+                    <td colspan="3">
+                        <h3>
+                            <%=program%>
+                        </h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="7">
+                        <h3>Course Code:</h3>
+                    </td>
+                    <td colspan="3">
+                        <h3>
+                            <%=cc%>
+                        </h3>
+                    </td>
+                </tr>
+            </table>
         </div>
-    </form>
-    </p>
+    </div>
+
 
     <script src=" ./js/form.js" async defer>
     </script>

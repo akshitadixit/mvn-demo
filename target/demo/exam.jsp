@@ -31,26 +31,23 @@
         </div>
     </nav>
     <p>
-    <form class="my-form">
+    <form class="my-form" action="./details.jsp">
         <div class="container">
             <ul>
                 <li>
-                    <br><br><br><br>
-                </li>
-                <li>
                     <div class="grid grid-2">
-                        <input type="text" placeholder="Name" required>
-                        <input type="text" placeholder="Surname" required>
+                        <input type="text" placeholder="First Name" name="fname" required>
+                        <input type="text" placeholder="Last Name" name="lname" required>
                     </div>
                 </li>
                 <li>
                     <div class="grid grid-2">
-                        <input type="email" placeholder="Email" required>
-                        <input type="tel" placeholder="Phone">
+                        <input type="email" placeholder="Email" name="email" required>
+                        <input type="tel" placeholder="Phone" name="phone">
                     </div>
                 </li>
                 <li>
-                    <textarea placeholder="Message"></textarea>
+                    <textarea placeholder="Bio" name="message"></textarea>
                 </li>
                 <li>
                     <input type="checkbox" id="terms">
@@ -69,7 +66,7 @@
                             <span class="back">
                                 <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/eraser-icon.svg" alt="">
                             </span>
-                            <span class="front">RESET</span>
+                            <span class="front" id="reset">RESET</span>
                         </button>
                     </div>
                 </li>
